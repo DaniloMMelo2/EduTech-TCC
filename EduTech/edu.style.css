@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500&display=swap');
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+body {
+	background: #000000;
+}
+
+.section-padding1 {
+	padding-top: 120px;
+	padding-bottom: 40px;
+}
+.section-padding {
+	padding: 80px 0;
+}
+.metade {
+	background-image: url(imagens/Logo\ Serviços\ De\ Turismo\ \(1\).png);
+	 background-repeat: no-repeat;
+	 background-position: right 90%;
+	 background-size: 70% 90%;
+	 background-color: #000;
+	 width: 100%;
+	 height: 100%;
+}
+.colors {
+	background-color: rgb(92, 225, 230);
+}
+.colors1 {
+	background-color: rgb(92, 225, 230);
+}
+.colors2 {
+	background-color: rgb(92, 225, 230);
+}
+.maraca {
+    color: #14142b;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px; 
+
+    text-shadow: 4px 6px 18px rgba(161,165,157,0.57);
+}
+.maraca1 {
+    color: #14142b;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 64px;
+
+    text-shadow: 4px 6px 18px rgba(161,165,157,0.57);
+}
+.shadow {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 64px;
+
+    text-shadow: 4px 6px 18px rgba(255, 255, 255, 0.57);
+}
+.EDU {
+	color: rgb(92, 225, 230);
+}
+
+.poppins {
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	
+}
+.montserrat1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+}
+.navbar .getstarted {
+	background: #106eea;
+	margin-left: 30px;
+	border-radius: 4px;
+	font-weight: 400;
+	color: #fff;
+	text-decoration: none;
+	padding: .5rem 1rem;
+	line-height: 2.3;
+}
+.navbar-nav a {
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.navbar-light .navbar-brand {
+	color: #000;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	
+}
+
+.section-padding {
+	padding: 100px 0;
+}
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 220px;
+	z-index: 2;
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+.carousel-inner:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 1;
+}
+.navbar .getstarted {
+	background: #106eea;
+	margin-left: 30px;
+	border-radius: 4px;
+	font-weight: 400;
+	color: #fff;
+	text-decoration: none;
+	padding: .5rem 1rem;
+	line-height: 2.3;
+}
+.navbar-nav a {
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.navbar-light .navbar-brand {
+	color: #000;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+	color: #000;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #000;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #000;
+}
+.w-100 {
+	height: 100vh;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+.portfolio .card {
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.team .card {
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.services .card-body i {
+	font-size: 50px;
+}
+.team .card-body i {
+	font-size: 20px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.carousel-caption {
+		bottom: 370px;
+	}
+	.carousel-caption p {
+		width: 100%;
+	}
+	.card {
+		margin-bottom: 30px;
+	}
+	.img-area img {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center;
+	}
+	.carousel-caption {
+		bottom: 125px;
+	}
+	.carousel-caption h5 {
+		font-size: 17px;
+	}
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 15px;
+	}
+	.carousel-caption p {
+		width: 100%;
+		line-height: 1.6;
+		font-size: 12px;
+	}
+	.about-text {
+		padding-top: 50px;
+	}
+	.card {
+		margin-bottom: 30px;
+	}
+}
+
+.fotoestrutura{
+	width: 50%;
+	padding-left: 10rem;
+  }
+  .fotoestrutura img {
+	transform: scale(0.8);
+  }
+  .padding2 {
+	padding-top: 12rem;
+  }
+  .fotoestrutura img:hover{
+	  transform: scale(0.8);
+	  animation-name: wobble;
+	  animation-duration: 1s;
+	  animation-fill-mode: both;
+  
+	}
+  
+	  @-webkit-keyframes wobble {
+	  0% {
+	  -webkit-transform: none;
+	  transform: none;
+	  }
+	  15% {
+	  -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+	  transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+	  }
+	  30% {
+	  -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+	  transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+	  }
+	  45% {
+	  -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+	  transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+	  }
+	  60% {
+	  -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+	  transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+	  }
+	  75% {
+	  -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+	  transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+	  }
+	  100% {
+	  -webkit-transform: none;
+	  transform: none;
+	  }
+	  }
+	  @keyframes wobble {
+	  0% {
+	  -webkit-transform: none;
+	  transform: none;
+	  }
+	  15% {
+	  -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+	  transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+	  }
+	  30% {
+	  -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+	  transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+	  }
+	  45% {
+	  -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+	  transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+	  }
+	  60% {
+	  -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+	  transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+	  }
+	  75% {
+	  -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+	  transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+	  }
+	  100% {
+	  -webkit-transform: none;
+	  transform: none;
+	  }
+  }
+
+
+

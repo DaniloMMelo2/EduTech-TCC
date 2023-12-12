@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link href="iframe.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <span class="text first-text">EDUTECH</span>
+        <span class="text sec-text">A EDUCAÇÃO</span>
+    </div>
+
+    <script>
+        const text = document.querySelector(".sec-text");
+
+        const textLoad = () => {
+            setTimeout(() => {
+                text.textContent = "A EDUCAÇÃO";
+            }, 0);
+            setTimeout(() => {
+                text.textContent = "NÃO É DESPESA";
+            }, 4000);
+            setTimeout(() => {
+                text.textContent = "É UM INVESTIMENTO";
+            }, 8000);
+            setTimeout(() => {
+                text.textContent = "COM RETORNO";
+            }, 12000); 
+            setTimeout(() => {
+                text.textContent = "GARANTIDO!";
+            }, 16000); //1s = 1000 milliseconds
+        }
+
+        textLoad();
+        setInterval(textLoad, 20000);
+    </script>    
+</body>
+</html>

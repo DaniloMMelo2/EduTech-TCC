@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "F:/mae"
+		},
+		{
+			"path": "../TESTE"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5505
+	}
+}
